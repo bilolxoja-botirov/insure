@@ -224,9 +224,6 @@ footer{
     background-position: left;
     background-repeat: no-repeat;
 }
-.socnets{
-    border: 2px solid;
-}
 .foot{
     display: flex;
     justify-content: space-between;
