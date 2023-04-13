@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px 0;
+    user-select: none;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.logotap{
+    cursor: pointer;
+}
+.link{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #837D88;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: color 150ms ease;
+}
+.links a:hover{
+    color: #2C2830;
+}
+.btn{
+    background: #FFFFFF;
+    border: 1.5px solid #2C2830;
+    padding: 13px 28px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    color: #2C2830 ;
+    text-decoration: none;
+    margin-left: 33px;
+    transition: background 150ms ease, color 150ms ease;    
+}
+.btn:hover{
+    background: #2C2830;
+    color: white !important;
+}
+.first{
+    margin-top: 80px;
+    background: #2D2641;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 105px 0;
+}
+.banner-text{
+    width: 48%;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-img .mainimg{
+    width: 100%;
+}
+.line{
+    width: 150px;
+    height: 1px;
+    background: #FFFFFF;
+    margin-bottom: 70px;
+}
+.banner-text h1{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.banner-text p{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.btn2{
+    background: transparent;
+    border: 1.5px solid #fff;
+    padding: 13px 28px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    color: #fff;
+    text-decoration: none;
+    transition: background 150ms ease, color 150ms ease, border 150ms ease;  
+}
+.btn2:hover{
+    background: #fff;
+    color: #2D2641;
+    border: 1.5px solid #2D2641;
+}
+.mainimg{
+    margin-bottom: -300px;
+}
+.leftside{
+    position: absolute;
+    top: 494px;
+    left: 0;
+    z-index: 3;
+}
+.rightside{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+}
