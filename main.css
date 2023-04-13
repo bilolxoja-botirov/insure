@@ -122,6 +122,7 @@ header{
     letter-spacing: 1.5px;
     color: #fff;
     text-decoration: none;
+    z-index: 99;
     transition: background 150ms ease, color 150ms ease, border 150ms ease;  
 }
 .btn2:hover{
@@ -187,4 +188,32 @@ header{
     font-size: 16px;
     line-height: 26px;
     color: #837D88;
+}
+.third{
+    margin-bottom: 150px;
+}
+.work{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2D2641;
+    padding: 69px 81px;
+    background-image: url(bgi.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.work-text{
+    margin: 0;
+    padding: 0;
+}
+.work-text h1{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.777778px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
 }
