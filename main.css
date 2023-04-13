@@ -217,3 +217,57 @@ header{
     margin: 0;
     padding: 0;
 }
+footer{
+    background: #FAFAFA;
+    /* padding: 31px 0; */
+    background-image: url(bgi2.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.socnets{
+    border: 2px solid;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 0;
+    border-bottom: 1px solid #dadada;
+}
+.foot a{
+    margin-left: 16px;
+}
+.foot2{
+    display: flex;
+    justify-content: space-between;
+}
+.footlinks{
+    padding-top: 48px;
+}
+.linkbox{
+    display: flex;
+    flex-direction: column;
+}
+.linkbox p{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    color: #837D88;
+}
+.linkbox a{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: #2D2641;
+    margin-bottom: 16px;
+}
+.linkbox a:hover{
+    text-decoration: underline;
+}
