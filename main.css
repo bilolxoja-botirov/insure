@@ -219,9 +219,8 @@ header{
 }
 footer{
     background: #FAFAFA;
-    /* padding: 31px 0; */
     background-image: url(bgi2.svg);
-    background-position: left;
+    background-position: top left;
     background-repeat: no-repeat;
 }
 .foot{
