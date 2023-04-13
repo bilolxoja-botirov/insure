@@ -22,7 +22,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid;
 }
 .links{
     display: flex;
@@ -69,6 +68,7 @@ header{
 .first{
     margin-top: 80px;
     background: #2D2641;
+    margin-bottom: 300px;
 }
 .banner{
     display: flex;
@@ -143,4 +143,48 @@ header{
     top: 0;
     right: 0;
     z-index: 3;
+}
+.second{
+    margin-bottom: 160px;
+}
+.line2{
+    width: 150px;
+    height: 1px;
+    background: #C396C6;
+    margin-bottom: 65px;
+}
+.branch h1{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2C2830;
+    margin-bottom: 100px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 32%;
+}
+.box h3{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.388889px;
+    color: #2C2830;
+    margin-bottom: 20px;
+}
+.box p{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #837D88;
 }
